@@ -49,5 +49,7 @@ if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
 
+source /usr/share/bash-completion/completions/git
+
 export EDITOR=vim
 
